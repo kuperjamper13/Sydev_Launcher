@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-Medium.ttf') format('truetype');
+}
+
+.content {
+    width: 1080px;
+    height: 477px;
+    background-color: rgba(20, 20, 20, 0.5);
+}

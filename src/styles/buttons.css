@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-Medium.ttf') format('truetype');
+}
+
+.button {
+    font-family: 'WorkSans', sans-serif;
+    margin: 10px;
+    width: 140px;
+    background-color: #202020;
+    color: azure;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #151515;
+}
+
+#pageMods {
+    margin-left: 265px;
+}
+
+#pageMinecraft {
+    background-color: #fca103;
+    font-size: 16px;
+}
+
+#pageMinecraft:hover {
+    background-color: #dc8100;
+}
+
+#pageWebsite {
+    background-color: #6000b5;
+    width: 60px;
+    margin-left: 220px;
+}
+
+#pageWebsite:hover {
+    background-color: #5000a5;
+}

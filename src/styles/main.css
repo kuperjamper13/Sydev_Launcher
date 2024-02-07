@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-Medium.ttf') format('truetype');
+}
+
+body {
+    width: 1080px;
+    height: 720px;
+    overflow: hidden;
+    background-image: url("../images/background.png");
+    background-image: contain;
+    background-image: center;
+    background-image: no-repeat;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1080px;
+    height: 100px;
+    background-color: rgba(20, 20, 20, 0.9);
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.9);
+}
+
+.navBar {
+    width: 1080px;
+    height: 15px;
+    background-color: rgba(20, 20, 20, 0.85);
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.9);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 1080px;
+    height: 60px;
+    background-color: rgba(20, 20, 20, 0.85);
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.9);
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'WorkSans', sans-serif;
+    color: azure;
+}
+
+p {
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'WorkSans', sans-serif;
+    color: azure;
+}

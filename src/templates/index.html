@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/containers.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <script src="../renderer.js"></script>
+    <title>Sydev Launcher</title>
+</head>
+<body>
+    <header>
+        <h1>Sydev Launcher</h1>
+    </header>
+    <div>
+        <div>
+            <nav class="navBar">
+                <button id="pageMods" class="button" onclick="showContent('modsContent')">Mods</button>
+                <button id="pageMinecraft" class="button" onclick="showContent('minecraftContent')">Minecraft</button>
+                <button id="pageAjustes" class="button" onclick="showContent('ajustesContent')">Ajustes</button>
+                <button id="pageWebsite" class="button" onclick="openWebpage('https://panel.sydev.site')">Sydev</button>
+            </nav>
+        </div>
+        <div id="modsContent" class="content" style="display: none;">
+            <p>placeholder2</p>
+        </div>
+        <div id="minecraftContent" class="content" style="display: block;">
+            <p>placeholder1</p>
+        </div>
+        <div id="ajustesContent" class="content" style="display: none;">
+            <p>placeholder3</p>
+        </div> 
+    </div>
+    <footer>
+        <p>&copy; 2024 Sydev Launcher. All rights reserved.  |  Version 1.0.0</p>
+    </footer>
+</body>
+</html>
