@@ -3,8 +3,16 @@
     src: url('../fonts/WorkSans-Medium.ttf') format('truetype');
 }
 
-.content {
+.maincontent {
     width: 1080px;
-    height: 477px;
+    height: 457px;
+    padding: 10px;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.content {
+    width: 1033px;
+    padding: 10px;
+    border-radius: 5px;
     background-color: rgba(20, 20, 20, 0.5);
 }
