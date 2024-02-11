@@ -30,4 +30,9 @@
     background-color: rgba(20, 20, 20, 0.6);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+

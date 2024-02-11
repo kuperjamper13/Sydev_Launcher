@@ -42,3 +42,14 @@
 #pageWebsite:hover {
     background-color: #5000a5;
 }
+
+#playMinecraft {
+    background-color: #0055ff;
+    font-size: 18px;
+
+}
+
+#playMinecraft:hover {
+    background-color: #0041c3;
+    font-size: 18px;
+}
